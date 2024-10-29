@@ -1,0 +1,33 @@
+/* Style de base */
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header div {
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+header h1 {
+    margin: 0 auto; /* Centre le titre horizontalement */
+    width: fit-content; /* Ajuste la largeur du titre à son contenu */
+}
+
+
+.image-wrapper {
+    position: relative;
+    display: block;
+    margin: 20px auto; /* Ajout de marge pour l'espace autour de l'image */
+    max-width: 70%;
+    text-align: center;
+    
+}
+.image-wrapper img {
+    display: block; /* Assure que l'image est considérée comme un bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    max-width: 100%; /* Garantit que l'image ne dépasse pas la largeur de son conteneur */
+}
